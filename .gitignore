@@ -1,0 +1,23 @@
+.DS_Store
+
+# Swift / SPM
+.build/
+.swiftpm/
+
+# Generated app/distribution artifacts
+*.app
+*.dmg
+
+# Local tool state
+.claude/
+website/.netlify/
+
+# Code signing and certificate material
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.csr
+
+# Misc
+*.log
